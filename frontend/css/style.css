@@ -62,39 +62,48 @@ a {
     font-family: 'Courier New', Courier, monospace;
 }
 
-    a:link, a:visited {
-        background-color: hsl(9, 100%, 64%);
-        color: white;
-        padding: 5px 10px;
-        margin: 5px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-    }
-
-    a:hover, a:active {
-        background-color: red;
-    }
-
-#navigation-menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+a:link, a:visited {
+    background-color: hsl(9, 100%, 64%);
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
-    #navigation-menu li {
-        float: left;
-    }
+a:hover, a:active {
+    background-color: red;
+}
 
-        #navigation-menu li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 16px;
-            text-decoration: none;
-        }
+form{
+    border: 3px solid #f1f1f1;
+}
 
-            #navigation-menu li a:hover {
-                background-color: #111111;
-            }
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 12px, 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.registerbutton{
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.container{
+    padding:16px;
+}

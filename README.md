@@ -93,3 +93,7 @@ Aug 18, 2020
 - 8/20/2020
   - Added classes Product, User, and Buyer
   - Added index.htm, style.css
+
+  8/22/2020
+  - Moved whole project to Visual Studio Code. Coping with Visual Studio 2019 is really annoying and time-wasting. Currently my project doesn't need any of the features of Visual Studio. So now I'm using VS Code which is much better.
+  - Finished the scratch version of the login page. Next is to implement the C++ back-end.

@@ -14,20 +14,22 @@
 <body>
     <h1>Welcome to Albert's Shopping Website!</h1>
     <h2>Login</h2>
-    <form action="/cgi-bin/main.cgi" method="post">
+    <form action="../cgi-bin/main.cgi" method="post">
         <div class="container">
             <label for="username"><b>Username</b></label>
             <input type="text" name="username" placeholder="Enter Username" required />
 
             <label for="password"><b>Password</b></label>
-            <input type="text" name="password" placeholder="Enter Password" required />
+            <input type="password" name="password" placeholder="Enter Password" required />
 
             <button type="submit">Login</button>
-            <button type="submit">Register</button>
 
             <label>
                 <input type="checkbox" checked="checked" name="remember" />Remember Me
             </label>
+            <div class="container">
+                <button class="registerbutton" type="submit">Register</button>
+            </div>
         </div>
     </form>
 </body>

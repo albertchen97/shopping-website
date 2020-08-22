@@ -6,11 +6,12 @@
 #include <iostream>
 #include <string>
 #include <cstdlib> // For getenv()
-#include "Item.h"
-
-std::string getPageType(std::istringstream& inputSS);
+#include "Product.h"
+#include "User.h"
+#include "Buyer.h"
 
 int main()
 {
+	std::cout << "Test" << std::endl;
 	return 0;
 }

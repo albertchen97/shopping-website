@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-shopping-website",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-Buyer",
+      "appliesTo": "Buyer.cpp",
+      "type": "launch"
+    }
+  ]
+}
