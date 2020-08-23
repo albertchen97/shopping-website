@@ -3,6 +3,7 @@
 //	1. Get the type of user (buyer/seller) from homepage (index.htm).
 //	2. Open corresponding web page.
 
+#define _CRT_SECURE_NO_WARNINGS	// Must define to use getenv()
 #include <iostream>
 #include <string>
 #include <cstdlib> // For getenv()
@@ -12,6 +13,7 @@
 
 int main()
 {
+	std::string query_string = getenv("QUERY_STRING"); // To get the query string from URL.
 	return 0;
 }
 

@@ -154,7 +154,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="backend\Buyer.cpp" />
-    <ClCompile Include="backend\main.cpp" />
+    <ClCompile Include="backend\main.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)cgi-bin\%(Filename).cgi</ObjectFileName>
+    </ClCompile>
     <ClCompile Include="backend\Product.cpp" />
     <ClCompile Include="backend\User.cpp" />
   </ItemGroup>

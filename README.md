@@ -94,6 +94,11 @@ Aug 18, 2020
   - Added classes Product, User, and Buyer
   - Added index.htm, style.css
 
-  8/22/2020
+- 8/22/2020
   - Moved whole project to Visual Studio Code. Coping with Visual Studio 2019 is really annoying and time-wasting. Currently my project doesn't need any of the features of Visual Studio. So now I'm using VS Code which is much better.
   - Finished the scratch version of the login page. Next is to implement the C++ back-end.
+
+- 8/23/2020
+  - Understood how Visual Studio 2019 manage solution and projects.
+  - Fixed problem "can't push to GitHub because don't have permisson to *.vs.opendb file", solution: ignore it in .gitignore.
+  - Succesfully configured main.cpp to output CGI file in cgi-bin. Still need to figure out how CGI works.
