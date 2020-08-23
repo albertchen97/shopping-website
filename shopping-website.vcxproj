@@ -148,9 +148,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="backend\README.md" />
     <None Include="frontend\css\style.css" />
     <None Include="frontend\html\index.html" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="backend\Buyer.cpp" />
