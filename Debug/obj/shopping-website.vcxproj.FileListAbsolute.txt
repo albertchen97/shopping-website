@@ -1,0 +1,2 @@
+J:\Git\shopping-website\Debug\exe\shopping-website.exe.lastcodeanalysissucceeded
+J:\Git\shopping-website\Debug\obj\NativeCodeAnalysis.read.1.tlog
