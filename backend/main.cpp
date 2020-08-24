@@ -12,16 +12,34 @@
 #include "Buyer.h"
 #include <fstream>
 
+using namespace std;
+
 int main()
 {
-	std::ofstream write;
-	write.open("../data/user.txt", std::ios::app);
+    cout << "<html>" << endl;
+    cout << "<head>" << endl;
+    cout << "<title>Buyer's order @ Leopard Nike shoe store</title>" << endl;
+    cout << "</head>" << endl;
+    cout << "<body style='background-color:powderblue'>" << endl;
+    cout << "<H1>Leopard Nike Shoe Store</H1> " << endl;
+    cout << "<H2>From CS102 Spring 2018</H2> " << endl;
+    cout << "<H3>Albert Chen & Haixia Li</H3> " << endl;
+    cout << "<H2>Welcome to our shoes store.</H2>" << endl;
+    cout << "<form action='/teamproject/seller-albert.html' method='get'>" << endl;
+    cout << "<p>You are all set!</p >" << endl;
+    cout << "<div><input type='submit' value='Click here to go back'></div>" << endl;
+    cout << "</form>" << endl;
+    cout << "</body>" << endl;
+    cout << "</html>" << endl;
 
-	//std::string query_string = "";
-	//query_string = getenv("QUERY_STRING"); // To get the query string from URL.
 
-	write << "Test";
-	write.close();
+	//std::ofstream write;
+	//write.open("../data/user.txt", std::ios::app);
+	//std::cout << "Writting data into user.txt\n";
+	//std::string query_string =  getenv("QUERY_STRING"); // To get the query string from URL.
+	//write << query_string;
+	//write.close();
+
 	return 0;
 }
 

@@ -100,5 +100,20 @@ Aug 18, 2020
 
 - 8/23/2020
   - Understood how Visual Studio 2019 manages solution and projects.
-  - Fixed problem <bold>"can't push to GitHub because don't have permisson to *.vs.opendb file"</bold>, solution: ignore it in .gitignore.
+  - Fixed problem <b>"can't push to GitHub because don't have permisson to *.vs.opendb file"</b>, solution: ignore it in .gitignore.
   - Succesfully configured main.cpp to output CGI file in cgi-bin. Still need to figure out how CGI works.
+
+- 8/24/2020
+  - I tried to build the .cpp file into .cgi file and run it in my local computer. But failed. Turns out that CGI should be ran in the web server. When I did the project in the CS102 class I was using Linux enviroment ran on the VirtualBox. I think the enviroment was already setup for server. But now I have to set up the server on Windows environment. I needw to use **Apache Web Server**.
+
+# Notes
+- [Web Server](https://whatis.techtarget.com/definition/Web-server#:~:text=A%20web%20server%20is%20software,and%20delivering%20webpages%20to%20users.)
+  - a web server is a **software and hardware** that uses HTTP (Hypertext Transfer Protocol)and other protocols to respond to client requrests made over the World Wide Web. 
+  - The main job of a web server is to display website content through **storing, processing, and delivering webpages** to users.
+  - Besides HTTP, web servers also support SMTP (Simple Mail Transfer Protocol) and FTP (File Transfer Protocol), used for email, file transfer and storage.
+  -  Common and top web server software on the market:
+     -  Apache HTTP Server.
+     -  Microsoft INternet INformation Services (IIS).
+     -  Nginx
+     -  Lighttpd
+     -  Sun Java System Web Server
