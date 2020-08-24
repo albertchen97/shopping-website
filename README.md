@@ -99,6 +99,6 @@ Aug 18, 2020
   - Finished the scratch version of the login page. Next is to implement the C++ back-end.
 
 - 8/23/2020
-  - Understood how Visual Studio 2019 manage solution and projects.
-  - Fixed problem "can't push to GitHub because don't have permisson to *.vs.opendb file", solution: ignore it in .gitignore.
+  - Understood how Visual Studio 2019 manages solution and projects.
+  - Fixed problem <bold>"can't push to GitHub because don't have permisson to *.vs.opendb file"</bold>, solution: ignore it in .gitignore.
   - Succesfully configured main.cpp to output CGI file in cgi-bin. Still need to figure out how CGI works.

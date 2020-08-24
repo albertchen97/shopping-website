@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\backend"
+    "\\backend",
+    "\\frontend\\html"
   ],
-  "SelectedNode": "\\backend\\main.cpp",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }
