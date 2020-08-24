@@ -10,10 +10,18 @@
 #include "Product.h"
 #include "User.h"
 #include "Buyer.h"
+#include <fstream>
 
 int main()
 {
-	std::string query_string = getenv("QUERY_STRING"); // To get the query string from URL.
+	std::ofstream write;
+	write.open("../data/user.txt", std::ios::app);
+
+	//std::string query_string = "";
+	//query_string = getenv("QUERY_STRING"); // To get the query string from URL.
+
+	write << "Test";
+	write.close();
 	return 0;
 }
 

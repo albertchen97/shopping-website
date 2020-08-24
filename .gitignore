@@ -1,11 +1,9 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
+﻿
 # Ignore the .vs directory
+
 .vs
 
-*.sln
-*.vcxproj
+# Ignore Visual Studio 2019 setting fils.
+
 *.filters
 *.user
